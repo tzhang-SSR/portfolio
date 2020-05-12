@@ -1,6 +1,6 @@
 {
-  "homepage": "http://URpineapple.github.io/portfolio-website",
-  "name": "myportfolio",
+  "homepage": "http://urpineapple.github.io/portfolio-website",
+  "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

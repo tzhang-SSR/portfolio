@@ -1,10 +1,7 @@
 :root {
-  --bg-color: #fff;
+  --bg-color: rgba(255, 255, 255, 0.8);
   --bg-color2: #eeeeee;
-  --tx-color: #05386b;
-  --third-color: #edf5e1;
-  --third-bg: rgba(237, 245, 225, 0.5);
-  --tx-bg: rgba(5, 56, 107, 1);
+  --tx-color: rgba(0, 0, 0, 0.8);
 }
 
 a {
@@ -80,7 +77,7 @@ a:hover {
 .project-cover {
   width: 300px;
   height: 200px;
-  border: solid 2px;
+  border: 0px;
   border-radius: 5px;
   cursor: pointer;
 }

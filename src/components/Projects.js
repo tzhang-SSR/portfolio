@@ -7,12 +7,9 @@ import musicmaster from '../pictures/musicmaster.jpg'
 import reminder from '../pictures/reminder.jpg'
 
 const projectTable = {
-    0: { "title": "Spotify Master", "text": "A search engine built with Spotify API that's able to search for music artists and view their TOP 10 albums", "img": musicmaster, link: "https://musicmasters.herokuapp.com/" },
-    1: { "title": "Message Board", "text": "Meesage board let users leave message with personal details like name and address, built with React and Redux", "img": mboard, link: "https://urpineapple.github.io/react-redux-messageBoard/" },
-    2: { "title": "Deadline CountDown", "text": "A useful countdown web app that let user calculate the remaining time before dealines", "img": countdown, link: "https://github.com/URpineapple/countdownChamp" },
-    3: { "title": "Reminder Pro", "text": "A web app that put sitcky notes with dealine, including date and time, built with React and Redux", "img": reminder, link: "https://urpineapple.github.io/reminderPro/" },
-    4: { "title": "", "text": "", "img": "", link: "" },
-    5: { "title": "Budget Web App", "text": "Vanilla JS budget web app, allowing visitors to record their incomes and expenses", "img": budgetapp, link: "https://urpineapple.github.io/BudgetApp/" },
+    0: { "title": "Spotify Master", "text": "Online search engine that can search for music artists and view their TOP 10 albums, built with Spotify API", "img": musicmaster, link: "https://musicmasters.herokuapp.com/" },
+    1: { "title": "Reminder Pro", "text": "Powerful reminder app with detailed deadline and second by second countdown feature", "img": reminder, link: "https://urpineapple.github.io/reminderPro/" },
+    2: { "title": "Budget Web App", "text": "Clean budget creator that can record and calcualte incomes and expenses", "img": budgetapp, link: "https://urpineapple.github.io/BudgetApp/" }
 }
 
 export default class Projects extends Component {
