@@ -4,20 +4,13 @@
   --tx-color: rgba(0, 0, 0, 0.8);
 }
 
-a {
-  color: var(--tx-color);
+html {
+  scroll-behavior: smooth;
 }
 
-.navbar-title a{
-  color: #fff;
-}
-.navbar-title a:hover{
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--tx-color);
+body {
+  padding: 0;
+  margin: 0;
 }
 
 .title1 {
@@ -34,11 +27,6 @@ a:hover {
 }
 
 .header-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  padding: 10vw;
   background-color: var(--bg-color);
 }
 
@@ -120,44 +108,70 @@ a:hover {
   visibility: hidden;
 }
 
-.qrcode-img{
+.qrcode-img {
   width: 100;
   height: 100px;
   width: 100px;
   right: 0px;
 }
 
-.qrcode-wrapper::after{
+.qrcode-wrapper::after {
   position: absolute;
   top: 100px;
-	border: solid transparent;
-	content: "";
+  border: solid transparent;
+  content: "";
   right: 35px;
   pointer-events: none;
   border-color: rgba(136, 183, 213, 0);
-	border-top-color:#fff;
+  border-top-color: #fff;
   border-width: 15px;
 }
 
-.navbar{
+.navbar {
   position: fixed;
-  top:0;
+  top: 0;
   right: 0;
-  background-color: var(--tx-color);
-  color: #fff;
-  height: 70px;
-  padding: 10px 15px 10px 30px;
   font-size: 20px;
-  border-radius: 0 0 0 100px;
+  padding: 0;
 }
 
-.navbar-title{
+.navbar-title {
   float: left;
-
 }
 
+.typewriter {
+  overflow: hidden;
+  border-right: 0.1em solid var(--tx-color);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 2.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
 
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--tx-color);
+  }
+}
 
-
-
+.navbar.responsive > div {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+}

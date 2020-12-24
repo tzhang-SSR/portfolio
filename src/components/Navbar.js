@@ -1,18 +1,33 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class Navbar extends Component {
-    render() {
-        return (
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-12 col-sm-10 col-md-6 navbar">
-                        <div className="navbar-title"><a href="#home"><em>00.</em> Home </a></div>
-                        <div className="navbar-title"><a href="#intro"><em>01.</em> Intro</a></div>
-                        <div className="navbar-title"><a href="#project"><em>02.</em> Project</a></div>
-                        <div className="navbar-title"><a href="#footer"><em>03.</em> Contact</a></div>
-                    </div>
-                </div>
+const routes = [
+    { link: '#home', title: 'start' },
+    { link: '#intro', title: 'Intro' },
+    { link: '#project', title: 'Project' },
+    { link: '#footer', title: 'Contact' },
+]
+
+const toggleNavbar = () => {
+    let navbar = document.getElementById("navbar")
+    navbar.classList.toggle("responsive")
+}
+
+const NavStyle = "bg-near-black mh2 w4-l tc pa2 dn-m";
+
+export default function Navbar() {
+    return (
+        <div className="navbar w-100-m" id="navbar">
+            <div className="bg-near-black white mh2 tc tr-m pa2 dn db-m pointer"
+                onClick={toggleNavbar}>
+                <i className="fa fa-bars"></i>
             </div>
-        )
-    }
+            {
+                routes.map((route, index) =>
+                    <div key={index} className={NavStyle}>
+                        <a className="link white hover-white ttc" href={route.link}>{route.title} </a>
+                    </div>
+                )
+            }
+        </div>
+    )
 }
