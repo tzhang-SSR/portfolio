@@ -38,11 +38,6 @@ body {
   font-size: 25px;
 }
 
-.intro-wrapper {
-  padding: 5vw 15vw 5vw 15vw;
-  background-color: var(--bg-color2);
-}
-
 .intro-pic {
   align-items: center;
   justify-content: center;

@@ -12,12 +12,12 @@ const toggleNavbar = () => {
     navbar.classList.toggle("responsive")
 }
 
-const NavStyle = "bg-near-black mh2 w4-l tc pa2 dn-m";
+const NavStyle = "bg-black-80 mh2 w4-l tc pa2 dn-m";
 
 export default function Navbar() {
     return (
-        <div className="navbar w-100-m" id="navbar">
-            <div className="bg-near-black white mh2 tc tr-m pa2 dn db-m pointer"
+        <div className="navbar w-100-m flex" id="navbar">
+            <div className="bg-black-80 white mh2 tc tr-m pa2 dn db-m pointer"
                 onClick={toggleNavbar}>
                 <i className="fa fa-bars"></i>
             </div>

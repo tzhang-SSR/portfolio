@@ -1,10 +1,9 @@
 import React from 'react';
 import Header from './components/Header';
-import Intro from './components/Intro'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Intro from './components/Intro';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
