@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import QRcode from '../pictures/QRcode.jpg'
 
 export default class Footer extends Component {
-    toggleDisplay = function () {
-        const qrcode = document.querySelector(".qrcode-wrapper");
-        const isHidden = qrcode.style.visibility;
+    toggleDisplay = function () 
+        const qrcode = document.querySelector(".qrcode-wrapper")
+        const isHidden = qrcode.style.visibility
         isHidden == "hidden" ? qrcode.setAttribute("style", "visibility: visible") : qrcode.setAttribute("style", "visibility: hidden");
     }
 
