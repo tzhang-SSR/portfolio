@@ -10,9 +10,12 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <div className="container-fluid">
+            <div className="container-fluid bg-white">
                 <div className="row footer-wrapper">
-                    <div className="footer-title title1 col-xs-12"><a name="footer">Interested?</a> <br className="d-block d-md-none" /> You can find me here: </div>
+                    <div className="footer-title title1 col-xs-12">
+                    <span>💌</span>
+                    <a name="footer">Interested?</a> 
+                    <br className="d-block d-md-none" /> <div className="dib">You can find me here:</div> </div>
                     <div className="footer-icons col-xs-12">
                         <a href="mailto:ztengc5@gmail.com"><i className="fa fa-envelope"></i></a>
                         <a href="https://www.linkedin.com/in/teng-zhang-ontheway/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>

@@ -10,7 +10,7 @@ export default function Intro() {
     return (
         <div className="pv5 ph4 bg-light-gray">
             <div className="w-70-l w-100 center">
-                <div className="title1"><a name="intro">About Me</a></div>
+                <div className="title1"> <a name="intro">About Me</a></div>
                 <div className="flex-l db-m">
                     <div className="dib w-50-l w-100">
                         <hr />
@@ -34,7 +34,7 @@ export default function Intro() {
                     </div>
                     <div className="dib w-50-l w-100">
                         <div className="bg-black-80 white mh3 pa4 br4">
-                            <div className="tc center f3 pv1 b">Tech Stacks</div>
+                            <div className="tc center f3 pv1 b">💡 Tech Stacks 💡</div>
                             <ul className="list pl0">
                                 {
                                     techStacks.map((stack, index) =>
