@@ -15,7 +15,7 @@ const projectTable = {
 export default class Projects extends Component {
     render() {
         return (
-            <div className="project-wrapper">
+            <div className="project-wrapper bg-light-gray">
                 <div className="title1"><a name="project">Projects</a></div>
                 <hr />
                 <div className="project-content row">

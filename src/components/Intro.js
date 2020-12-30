@@ -1,7 +1,7 @@
 import React from 'react';
 
 const techStacks = [
-    { title: 'Languages', content: 'HTML, CSS, JavaScript, TypeScirpt jQuery, Sass/Scss' },
+    { title: 'Languages', content: 'HTML, CSS, JavaScript, TypeScirpt jQuery, Sass/SCSS' },
     { title: 'JS Libraries/Frameworks', content: 'ReactJS, NextJS' },
     { title: 'CSS Libraries', content: 'Boottstrap, Tachyons, TailwindCSS' }
 ];
@@ -20,8 +20,7 @@ export default function Intro() {
                             Up until now, I've been working as a front end developer for one year
                             and truly enjoyed the process of developing various websites
                             and web applications.
-                            For me, using the web to visually deliver a
-                            nd present information is a rewarding and  meaningful work.
+                            For me, using the web to visually deliver and present information is a rewarding and meaningful work.
                         </p>
                         <p>
                             I'm experienced in using basic web languages
