@@ -3,8 +3,8 @@ import WorkCard from "./WorkCard";
 
 const WorkExperience = [
   {
-    endDate: "Aug, 2020",
-    startDate: "Jul, 2020",
+    endDate: "Aug 2020",
+    startDate: "Jul 2020",
     company: "Remote Roofing",
     title: "Frontend Developer Intern",
     description: [
@@ -14,8 +14,8 @@ const WorkExperience = [
     ],
   },
   {
-    endDate: "Aug, 2020",
-    startDate: "May, 2020",
+    endDate: "Aug 2020",
+    startDate: "May 2020",
     company: "Three Monkeys Communication",
     title: "Frontend Software Developer",
     description: [
@@ -25,8 +25,8 @@ const WorkExperience = [
     ],
   },
   {
-    endDate: "April, 2019",
-    startDate: "Jan, 2019",
+    endDate: "April 2019",
+    startDate: "Jan 2019",
     company: "Gleentown Education",
     title: "Web Developer Internship",
     description: [
