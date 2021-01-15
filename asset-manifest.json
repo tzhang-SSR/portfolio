@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.6f42e4dc.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.9a18b129.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.9a18b129.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.643e02a2.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.643e02a2.js.map",
+    "static/js/2.d1a4b217.chunk.js": "/portfolio-website/static/js/2.d1a4b217.chunk.js",
+    "static/js/2.d1a4b217.chunk.js.map": "/portfolio-website/static/js/2.d1a4b217.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "precache-manifest.311347105dd5b564452562d459e4438c.js": "/portfolio-website/precache-manifest.311347105dd5b564452562d459e4438c.js",
+    "service-worker.js": "/portfolio-website/service-worker.js",
+    "static/css/main.6f42e4dc.chunk.css.map": "/portfolio-website/static/css/main.6f42e4dc.chunk.css.map",
+    "static/js/2.d1a4b217.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.d1a4b217.chunk.js.LICENSE.txt",
+    "static/media/QRcode.jpg": "/portfolio-website/static/media/QRcode.7d0547c9.jpg",
+    "static/media/musicmaster.jpg": "/portfolio-website/static/media/musicmaster.b3dcd48e.jpg",
+    "static/media/reminder.jpg": "/portfolio-website/static/media/reminder.a92a04ed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.643e02a2.js",
+    "static/js/2.d1a4b217.chunk.js",
+    "static/css/main.6f42e4dc.chunk.css",
+    "static/js/main.9a18b129.chunk.js"
+  ]
+}
