@@ -1,7 +1,7 @@
 import React from 'react';
 
 const routes = [
-    { link: '#home', title: 'start' },
+    { link: '#home', title: 'Home' },
     { link: '#intro', title: 'Intro' },
     { link: '#project', title: 'Project' },
     { link: '#footer', title: 'Contact' },
